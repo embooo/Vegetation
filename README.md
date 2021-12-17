@@ -1,6 +1,4 @@
-# Terrain Vegetatio,
-
-![alt text](https://github.com/embooo/TerrainErosion/blob/main/erosion.png?raw=true)
+# Terrain Vegetation
 
 Implementation in C++ of Poisson Disc Sampling and WetnessIndex computation.</br>
 Source files : Projets/TPTerrain. </br>
