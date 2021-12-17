@@ -1,0 +1,210 @@
+﻿  Heightfield.cpp
+  PoissonDiscSampling.cpp
+  ScalarField.cpp
+  Terrain.cpp
+  app.cpp
+  app_camera.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: 'M_PI': macro redefinition (compiling source file ..\src\gKit\app_camera.cpp)
+C:\dev\TerrainVegetation\gkit\extern\visual\include\SDL2\SDL_stdinc.h(440): message : see previous definition of 'M_PI' (compiling source file ..\src\gKit\app_camera.cpp)
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: 'M_PI': macro redefinition (compiling source file ..\src\gKit\app.cpp)
+C:\dev\TerrainVegetation\gkit\extern\visual\include\SDL2\SDL_stdinc.h(440): message : see previous definition of 'M_PI' (compiling source file ..\src\gKit\app.cpp)
+C:\dev\TerrainVegetation\gkit\Projets\TPTerrain\PoissonDiscSampling.h(84,1): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ] (compiling source file ..\Projets\TPTerrain\PoissonDiscSampling.cpp)
+C:\dev\TerrainVegetation\gkit\Projets\TPTerrain\PoissonDiscSampling.h(111,1): warning C4267: '=': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ] (compiling source file ..\Projets\TPTerrain\PoissonDiscSampling.cpp)
+  app_time.cpp
+  buffer.cpp
+  color.cpp
+  draw.cpp
+  envmap.cpp
+C:\dev\TerrainVegetation\gkit\Projets\TPTerrain\PoissonDiscSampling.h(84,1): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ] (compiling source file ..\Projets\TPTerrain\Terrain.cpp)
+C:\dev\TerrainVegetation\gkit\Projets\TPTerrain\PoissonDiscSampling.h(111,1): warning C4267: '=': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ] (compiling source file ..\Projets\TPTerrain\Terrain.cpp)
+  framebuffer.cpp
+  gamepads.cpp
+  image.cpp
+  image_hdr.cpp
+  image_io.cpp
+  mat.cpp
+  mesh.cpp
+  orbiter.cpp
+  program.cpp
+  rgbe.cpp
+  text.cpp
+  texture.cpp
+C:\dev\TerrainVegetation\gkit\src\gKit\mesh.cpp(78,46): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  uniforms.cpp
+  vec.cpp
+  wavefront.cpp
+  wavefront_fast.cpp
+  widgets.cpp
+  window.cpp
+C:\dev\TerrainVegetation\gkit\src\gKit\wavefront.cpp(707,64): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\utility(247,55): warning C4267: 'initializing': conversion from 'size_t' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty2=int
+          ] (compiling source file ..\src\gKit\wavefront.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(681): message : see reference to function template instantiation 'std::pair<const vertex,int>::pair<vertex,unsigned __int64,0>(std::pair<vertex,unsigned __int64> &&) noexcept' being compiled (compiling source file ..\src\gKit\wavefront.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(681): message : see reference to function template instantiation 'std::pair<const vertex,int>::pair<vertex,unsigned __int64,0>(std::pair<vertex,unsigned __int64> &&) noexcept' being compiled (compiling source file ..\src\gKit\wavefront.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xtree(805): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::pair<vertex,unsigned __int64>>(_Alloc &,_Objty *const ,std::pair<vertex,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const vertex,int>,std::_Default_allocator_traits<std::allocator<std::pair<const vertex,int>>>::void_pointer>>,
+              _Ty=std::pair<const vertex,int>,
+              _Objty=std::pair<const vertex,int>
+          ] (compiling source file ..\src\gKit\wavefront.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xtree(805): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::pair<vertex,unsigned __int64>>(_Alloc &,_Objty *const ,std::pair<vertex,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const vertex,int>,std::_Default_allocator_traits<std::allocator<std::pair<const vertex,int>>>::void_pointer>>,
+              _Ty=std::pair<const vertex,int>,
+              _Objty=std::pair<const vertex,int>
+          ] (compiling source file ..\src\gKit\wavefront.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xtree(1012): message : see reference to function template instantiation 'std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const vertex,int>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<_Ty>(_Alnode &,std::_Tree_node<std::pair<const vertex,int>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,_Ty &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const vertex,int>>,
+              _Ty=std::pair<vertex,unsigned __int64>,
+              _Alnode=std::allocator<std::_Tree_node<std::pair<const vertex,int>,std::_Default_allocator_traits<std::allocator<std::pair<const vertex,int>>>::void_pointer>>
+          ] (compiling source file ..\src\gKit\wavefront.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xtree(1012): message : see reference to function template instantiation 'std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const vertex,int>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<_Ty>(_Alnode &,std::_Tree_node<std::pair<const vertex,int>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,_Ty &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const vertex,int>>,
+              _Ty=std::pair<vertex,unsigned __int64>,
+              _Alnode=std::allocator<std::_Tree_node<std::pair<const vertex,int>,std::_Default_allocator_traits<std::allocator<std::pair<const vertex,int>>>::void_pointer>>
+          ] (compiling source file ..\src\gKit\wavefront.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xtree(1037): message : see reference to function template instantiation 'std::pair<std::_Tree_node<std::pair<const vertex,int>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Emplace<std::pair<vertex,unsigned __int64>>(std::pair<vertex,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const vertex,int>>,
+              _Kty=vertex,
+              _Ty=int,
+              _Pr=std::less<vertex>
+          ] (compiling source file ..\src\gKit\wavefront.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xtree(1037): message : see reference to function template instantiation 'std::pair<std::_Tree_node<std::pair<const vertex,int>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Emplace<std::pair<vertex,unsigned __int64>>(std::pair<vertex,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const vertex,int>>,
+              _Kty=vertex,
+              _Ty=int,
+              _Pr=std::less<vertex>
+          ] (compiling source file ..\src\gKit\wavefront.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\map(163): message : see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const vertex,int>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<std::pair<vertex,unsigned __int64>>(std::pair<vertex,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Kty=vertex,
+              _Ty=int,
+              _Pr=std::less<vertex>,
+              _Alloc=std::allocator<std::pair<const vertex,int>>
+          ] (compiling source file ..\src\gKit\wavefront.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\map(163): message : see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const vertex,int>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<std::pair<vertex,unsigned __int64>>(std::pair<vertex,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Kty=vertex,
+              _Ty=int,
+              _Pr=std::less<vertex>,
+              _Alloc=std::allocator<std::pair<const vertex,int>>
+          ] (compiling source file ..\src\gKit\wavefront.cpp)
+C:\dev\TerrainVegetation\gkit\src\gKit\wavefront.cpp(355): message : see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const vertex,int>>>>,bool> std::map<vertex,int,std::less<vertex>,std::allocator<std::pair<const vertex,int>>>::insert<std::pair<vertex,unsigned __int64>,0>(_Valty &&)' being compiled
+          with
+          [
+              _Valty=std::pair<vertex,unsigned __int64>
+          ]
+C:\dev\TerrainVegetation\gkit\src\gKit\wavefront.cpp(355): message : see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const vertex,int>>>>,bool> std::map<vertex,int,std::less<vertex>,std::allocator<std::pair<const vertex,int>>>::insert<std::pair<vertex,unsigned __int64>,0>(_Valty &&)' being compiled
+          with
+          [
+              _Valty=std::pair<vertex,unsigned __int64>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\utility(247,55): warning C4267: 'initializing': conversion from 'size_t' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty2=int
+          ] (compiling source file ..\src\gKit\wavefront_fast.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(681): message : see reference to function template instantiation 'std::pair<const vertex,int>::pair<vertex,unsigned __int64,0>(std::pair<vertex,unsigned __int64> &&) noexcept' being compiled (compiling source file ..\src\gKit\wavefront_fast.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xmemory(681): message : see reference to function template instantiation 'std::pair<const vertex,int>::pair<vertex,unsigned __int64,0>(std::pair<vertex,unsigned __int64> &&) noexcept' being compiled (compiling source file ..\src\gKit\wavefront_fast.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xtree(805): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::pair<vertex,unsigned __int64>>(_Alloc &,_Objty *const ,std::pair<vertex,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const vertex,int>,std::_Default_allocator_traits<std::allocator<std::pair<const vertex,int>>>::void_pointer>>,
+              _Ty=std::pair<const vertex,int>,
+              _Objty=std::pair<const vertex,int>
+          ] (compiling source file ..\src\gKit\wavefront_fast.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xtree(805): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::pair<vertex,unsigned __int64>>(_Alloc &,_Objty *const ,std::pair<vertex,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const vertex,int>,std::_Default_allocator_traits<std::allocator<std::pair<const vertex,int>>>::void_pointer>>,
+              _Ty=std::pair<const vertex,int>,
+              _Objty=std::pair<const vertex,int>
+          ] (compiling source file ..\src\gKit\wavefront_fast.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xtree(1012): message : see reference to function template instantiation 'std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const vertex,int>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<_Ty>(_Alnode &,std::_Tree_node<std::pair<const vertex,int>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,_Ty &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const vertex,int>>,
+              _Ty=std::pair<vertex,unsigned __int64>,
+              _Alnode=std::allocator<std::_Tree_node<std::pair<const vertex,int>,std::_Default_allocator_traits<std::allocator<std::pair<const vertex,int>>>::void_pointer>>
+          ] (compiling source file ..\src\gKit\wavefront_fast.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xtree(1012): message : see reference to function template instantiation 'std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const vertex,int>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<_Ty>(_Alnode &,std::_Tree_node<std::pair<const vertex,int>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,_Ty &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const vertex,int>>,
+              _Ty=std::pair<vertex,unsigned __int64>,
+              _Alnode=std::allocator<std::_Tree_node<std::pair<const vertex,int>,std::_Default_allocator_traits<std::allocator<std::pair<const vertex,int>>>::void_pointer>>
+          ] (compiling source file ..\src\gKit\wavefront_fast.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xtree(1037): message : see reference to function template instantiation 'std::pair<std::_Tree_node<std::pair<const vertex,int>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Emplace<std::pair<vertex,unsigned __int64>>(std::pair<vertex,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const vertex,int>>,
+              _Kty=vertex,
+              _Ty=int,
+              _Pr=std::less<vertex>
+          ] (compiling source file ..\src\gKit\wavefront_fast.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\xtree(1037): message : see reference to function template instantiation 'std::pair<std::_Tree_node<std::pair<const vertex,int>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Emplace<std::pair<vertex,unsigned __int64>>(std::pair<vertex,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const vertex,int>>,
+              _Kty=vertex,
+              _Ty=int,
+              _Pr=std::less<vertex>
+          ] (compiling source file ..\src\gKit\wavefront_fast.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\map(163): message : see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const vertex,int>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<std::pair<vertex,unsigned __int64>>(std::pair<vertex,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Kty=vertex,
+              _Ty=int,
+              _Pr=std::less<vertex>,
+              _Alloc=std::allocator<std::pair<const vertex,int>>
+          ] (compiling source file ..\src\gKit\wavefront_fast.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\map(163): message : see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const vertex,int>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<std::pair<vertex,unsigned __int64>>(std::pair<vertex,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Kty=vertex,
+              _Ty=int,
+              _Pr=std::less<vertex>,
+              _Alloc=std::allocator<std::pair<const vertex,int>>
+          ] (compiling source file ..\src\gKit\wavefront_fast.cpp)
+C:\dev\TerrainVegetation\gkit\src\gKit\wavefront_fast.cpp(501): message : see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const vertex,int>>>>,bool> std::map<vertex,int,std::less<vertex>,std::allocator<std::pair<const vertex,int>>>::insert<std::pair<vertex,unsigned __int64>,0>(_Valty &&)' being compiled
+          with
+          [
+              _Valty=std::pair<vertex,unsigned __int64>
+          ]
+C:\dev\TerrainVegetation\gkit\src\gKit\wavefront_fast.cpp(501): message : see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const vertex,int>>>>,bool> std::map<vertex,int,std::less<vertex>,std::allocator<std::pair<const vertex,int>>>::insert<std::pair<vertex,unsigned __int64>,0>(_Valty &&)' being compiled
+          with
+          [
+              _Valty=std::pair<vertex,unsigned __int64>
+          ]
+  02TPTerrain.vcxproj -> C:\dev\TerrainVegetation\gkit\bin\02TPTerrain.exe
